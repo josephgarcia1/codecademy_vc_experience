@@ -1,0 +1,180 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Universals */
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 90rem;
+    width: 100%;
+    min-width: 20rem;
+}
+h3{
+    font-size: 1.625rem;
+    font-weight: 300;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    
+
+    padding: 1.5rem 0.5rem 1rem;
+
+}
+
+h2 {
+    align-self: flex-end;
+    font-size: 2.06rem;
+    font-weight: 300;
+}
+
+/* Nav */
+nav{
+    align-self: center;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+li{
+    font-size: 1.2rem;
+
+}
+
+/* End Nav */
+/* End Header */
+
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+/* Hero */
+section.hero{
+    background: url("../img/skyscrapers.jpg");
+    height: 30rem;
+    padding: 4rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Mission Statement */
+div.mission-statement{
+    width: 30rem;
+    background-color: rgb(255 255 255 / 0.3); 
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+div.mission-statement h1{
+    font-size: 2.625rem;
+    font-weight: 400;
+}
+/* End Mission Statement */
+/* End Hero */
+
+/* Portfolio */
+/* Portfolio Header */
+div.portfolio-header{
+    text-align: center;
+}
+
+div.portfolio-header h3, div.portfolio-header p{
+    padding: 0.5rem;
+}
+/* End Portfolio Header */
+/* Portfolio Album */
+div.portfolio-album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 3%;
+}
+div.item{
+    width: 47%;
+
+}
+div.item img{
+    width: 100%;
+}
+div.item h4{
+    position: relative;
+    bottom: 5rem;
+    left: 5rem;
+    background-color: white;
+    width: 9rem;
+    padding: 0 1rem;
+}
+/* End Portfolio Album */
+
+/* End Portfolio */
+
+/* Team */
+.team{
+    padding-bottom: 3rem;
+}
+/* Team Header */
+div.team-header{
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+/* End Team Header */
+/* Team Members */
+div.team-members{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.33%;
+    align-items: baseline;
+}
+div.team-members div{
+    width: 30%;
+}
+div.team-members img{
+    width: 100%;
+}
+/* End Team Members */
+/* End Team */
+/* End Main*/
+/* Footer */
+footer{
+    background-image: url("../img/blurred-road.jpg");
+    height: 12rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+div.contact{
+    align-self: center;
+}
+div.copyright{
+    align-self: flex-end;
+}
+/* End Footer */
